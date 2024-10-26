@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+
+    font-family: "Forum", serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(66, 66, 66);
+    background-image: url('https://i.imgur.com/lHJoS53.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+
+    font-family: "Forum", serif;
+    margin: 30px;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+}
+
+.menu {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 35px;
+
+}
+
+.menu li {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu img {
+
+    max-width: 140px;
+    height: auto;
+
+}
+
+
+hr {
+
+    border: none;
+
+}
+
+.links-container {
+
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+#link1, #link2,
+#link3, #link4,
+#link5, #link6 {
+
+    background-color: white;
+    box-shadow: rgb(88, 5, 5) 7px 7px 0px 0px;
+    color: rgb(219, 9, 9);
+    padding: 15px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 520px;
+    margin: auto;
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-weight: bold;
+
+}
+
+#link1:hover, #link2:hover,
+#link3:hover, #link4:hover,
+#link5:hover, #link6:hover {
+
+    background-color: rgb(151, 18, 18);
+    color: white;
+    transform: translate(4px, 2px);
+
+}
+
+#link1:active, #link2:active,
+#link3:active, #link4:active,
+#link5:active, #link6:active {
+
+    transform: scale(0.95);
+    box-shadow: 0 2px #666;
+
+}
+
+/* RODAPÉ */
+
+footer {
+
+    margin-top: 12%;
+    background-color: transparent;
+    clear: both;
+    padding: 28px;         
+    color: rgb(250,255,250);
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+    object-fit: scale-down;
+    margin-bottom: 0;
+    text-align: center;
+    height: 75px;
+
+}
+
+.icones {
+    
+    list-style: none;
+    clear: both;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    border: 0;
+    position: relative;
+    left: -1%;
+    gap: 15px;
+    
+}
+
+#direitos {
+
+    color: white;
+
+}
+
+
+
+@media (max-width: 768px) {
+    header {
+
+        margin: 10px 0;
+        height: auto;
+
+    }
+
+    .menu img {
+
+        max-width: 100px;
+
+    }
+
+    .links-container {
+
+        margin-top: 30px;
+
+    }
+
+    #link1, #link2, #link3, #link4, #link5, #link6 {
+
+        width: 90%;
+        font-size: 16px;
+
+    }
+
+    footer {
+
+        margin-top: 20px;
+
+    }
+
+    .icones {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        padding: 0;
+
+    }
+}
